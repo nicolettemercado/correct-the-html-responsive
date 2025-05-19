@@ -125,6 +125,8 @@ hr {
 	color: #f2f2f2;
 	margin: 0 0 1.6rem;
 	font-size: 0.9rem;
+	border-radius: 0.75rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .main-sidebar_thumb {
@@ -152,7 +154,9 @@ hr {
 }
 
 .main-sidebar_byline .byline_date {
-	display: none;
+	 display: block;
+	 font-size: 0.8rem;
+	 color: #ccc;
 }
 
 .main-sidebar_byline .byline_name {
@@ -170,6 +174,12 @@ hr {
 		align-items: center;
 	}
 
+	.container {
+		display: flex;
+		gap: 2rem; 
+		align-items: flex-start;
+	}
+
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
@@ -181,4 +191,10 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
+	
+	img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
 }
